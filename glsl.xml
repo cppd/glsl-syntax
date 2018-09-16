@@ -422,6 +422,14 @@
                         <item>bound_sampler</item>
                         <item>bound_image</item>
 		</list>
+                <list name="layoutqualifierVulkan">
+                        <item>constant_id</item>
+                        <item>push_constant</item>
+                        <item>set</item>
+                        <item>local_size_x_id</item>
+                        <item>local_size_y_id</item>
+                        <item>local_size_z_id</item>
+		</list>
 
 
 		<list name="buildinvariables100ES">
@@ -1019,6 +1027,7 @@
 				<keyword attribute="Keyword"         String="layoutqualifier420"      context="#stay" />
 				<keyword attribute="Keyword"         String="layoutqualifier430"      context="#stay" />
                                 <keyword attribute="Keyword"         String="layoutqualifier450ARB"   context="#stay" />
+                                <keyword attribute="Keyword"         String="layoutqualifierVulkan"   context="#stay" />
 				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
 				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
 				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
