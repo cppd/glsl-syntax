@@ -580,6 +580,10 @@
                 <list name="buildinvariables450ARB">
                         <item>gl_LocalGroupSizeARB</item>
                 </list>
+                <list name="buildinvariablesVulkan">
+                        <item>gl_VertexIndex</item>
+                        <item>gl_InstanceIndex</item>
+		</list>
 		<list name="buildinconstants100ES">
 			<item>gl_MaxVertexAttribs</item>
 			<item>gl_MaxVertexUniformVectors</item>
@@ -965,6 +969,7 @@
 				<keyword attribute="Buildinvariables"       String="buildinvariables410"    context="#stay" />
 				<keyword attribute="Buildinvariables"       String="buildinvariables430"    context="#stay" />
                                 <keyword attribute="Buildinvariables"       String="buildinvariables450ARB" context="#stay" />
+                                <keyword attribute="Buildinvariables"       String="buildinvariablesVulkan" context="#stay" />
 				<keyword attribute="Reserved"               String="buildinvariablesDeprecated"    context="#stay" />
 
 				<keyword attribute="Buildconstants"         String="buildinconstants110"    context="#stay" />
